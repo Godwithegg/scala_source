@@ -2,23 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4872018-0af9-407d-98dc-d87cbd43054b" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter01/Comment.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter01/LookSourceCode.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter01/vars/VarDemo01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter01/vars/VarDemo02.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter01/vars/VarDemo03.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/Demo01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/Demo02.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/String2Basic.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/CharDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/TypeDemo01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/TypeDemo02.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/TypeDemo03.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/UnitNullNothingDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/iden/IdenDemo01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/assignoper/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/inputcon/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/notice/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Demo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Demo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise05.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/ifelsesDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mydowhile/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForExercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForGuard.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForUntilDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForVar.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/MultiFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/StepFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/UserFor2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/YieldFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mywhile/WhileDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter05/Method2Function.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/PrintDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/PrintDemo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/iden/IdenDemo01$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/iden/IdenDemo01$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,32 +48,33 @@
     <session id="-551830975">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="scala" value="18" />
+          <entry key="scala" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="Scala" value="18" />
+          <entry key="Scala" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="2594" />
+          <entry key="scala" value="5638" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="2594" />
+          <entry key="Scala" value="5638" />
         </counts>
       </usages-collector>
     </session>
@@ -65,79 +82,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/TypeDemo01.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/UserFor2.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/TypeDemo02.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/StepFor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="440">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/TypeDemo03.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/CharDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/Demo01.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/Demo02.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/String2Basic.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/iden/IdenDemo01.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise03.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
               <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
@@ -146,15 +109,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/UnitNullNothingDemo.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mybreak/WhileBreak.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="80">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForGuard.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter05/Method2Function.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise02.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -179,6 +185,32 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/Demo02.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/String2Basic.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/iden/IdenDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/Exercise01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper/arithoper.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper/Exercise01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/assignoper/Demo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/notice/Demo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/inputcon/Demo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Demo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Demo02.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/ifelsesDemo03.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Demo03.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/for/Demo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/for/ForDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForUntilDemo02.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForVar.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/MultiFor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/YieldFor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/UserFor2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/StepFor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForExercise01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mydowhile/Demo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mywhile/WhileDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForGuard.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter05/Method2Function.scala" />
       </list>
     </option>
   </component>
@@ -199,9 +231,9 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="613" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="309" />
+    <option name="y" value="246" />
     <option name="width" value="1623" />
     <option name="height" value="1032" />
   </component>
@@ -317,64 +349,27 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="danhuang" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danhuang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danhuang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danhuang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="dataconvert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danhuang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="datatype" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573142599697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573219463150" />
     <property name="last_opened_file_path" value="E:/xunleixiazai/scala-2.11.8/lib/scala-sources-2.12.4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.rmicompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\scala_source\myscala\src\main\scala\com\danhuang\chapter04" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -388,13 +383,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IdenDemo01">
-    <configuration name="CharDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter02.datatype.CharDemo" />
+  <component name="RunManager" selected="Application.Method2Function">
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter04.mydowhile.Demo01" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter02.datatype.*" />
+          <option name="PATTERN" value="com.danhuang.chapter04.mydowhile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter02.dataconvert.Demo02" />
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter04.mutlfor.Exercise" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter02.dataconvert.*" />
+          <option name="PATTERN" value="com.danhuang.chapter04.mutlfor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +410,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdenDemo01" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter02.iden.IdenDemo01" />
+    <configuration name="ForGuard" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter04.myfor.ForGuard" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter02.iden.*" />
+          <option name="PATTERN" value="com.danhuang.chapter04.myfor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,12 +423,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeDemo03" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter02.datatype.TypeDemo03" />
+    <configuration name="Method2Function" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter05.Method2Function" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter02.datatype.*" />
+          <option name="PATTERN" value="com.danhuang.chapter05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,12 +436,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitNullNothingDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter02.datatype.UnitNullNothingDemo" />
+    <configuration name="WhileDemo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter04.mywhile.WhileDemo01" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter02.datatype.*" />
+          <option name="PATTERN" value="com.danhuang.chapter04.mywhile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,19 +450,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TypeDemo03" />
-      <item itemvalue="Application.CharDemo" />
-      <item itemvalue="Application.UnitNullNothingDemo" />
-      <item itemvalue="Application.Demo02" />
-      <item itemvalue="Application.IdenDemo01" />
+      <item itemvalue="Application.WhileDemo01" />
+      <item itemvalue="Application.Demo01" />
+      <item itemvalue="Application.Exercise" />
+      <item itemvalue="Application.ForGuard" />
+      <item itemvalue="Application.Method2Function" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IdenDemo01" />
-        <item itemvalue="Application.Demo02" />
-        <item itemvalue="Application.CharDemo" />
-        <item itemvalue="Application.UnitNullNothingDemo" />
-        <item itemvalue="Application.TypeDemo03" />
+        <item itemvalue="Application.Method2Function" />
+        <item itemvalue="Application.ForGuard" />
+        <item itemvalue="Application.Exercise" />
+        <item itemvalue="Application.Demo01" />
+        <item itemvalue="Application.WhileDemo01" />
       </list>
     </recent_temporary>
   </component>
@@ -484,17 +479,24 @@
       <workItem from="1572956028089" duration="5813000" />
       <workItem from="1573014402157" duration="8163000" />
       <workItem from="1573103663398" duration="12969000" />
+      <workItem from="1573171517749" duration="13781000" />
+      <workItem from="1573204900138" duration="2944000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_Features_in__myfor - 2019.11.08 at 09h 45m 06s.xml">
+      <configuration name="All Features in: myfor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26945000" />
+    <option name="totallyTimeSpent" value="43670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19482619" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20129345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -503,7 +505,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25044405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -601,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/TypeDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -619,16 +621,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/UnitNullNothingDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/CharDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="380">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
@@ -636,35 +631,247 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/Demo01.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/Demo02.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="120">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/dataconvert/String2Basic.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/iden/IdenDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter02/datatype/UnitNullNothingDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/Exercise01.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper/Demo01.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/arithoper/Exercise01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/assignoper/Demo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/notice/Demo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter03/inputcon/Demo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Demo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Demo02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise03.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise04.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Exercise05.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/ifelsesDemo03.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/ifelse/Demo03.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForUntilDemo02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForVar.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/MultiFor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mydowhile/Demo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mywhile/WhileDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/YieldFor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForExercise01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/UserFor2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/StepFor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise03.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mybreak/WhileBreak.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/mutlfor/Exercise02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter04/myfor/ForGuard.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter05/Method2Function.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
