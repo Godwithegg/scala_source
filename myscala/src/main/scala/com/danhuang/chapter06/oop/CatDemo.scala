@@ -5,15 +5,18 @@ object CatDemo {
     //创建一只猫
     val cat = new Cat
     //给猫的属性赋初值
+    //1.cat.name
     cat.name = "小白"
     cat.age = 10
     cat.color = "白色"
     println("ok~")
+    printf("\n小猫的信息如下:%s %d %s",cat.name,cat.age,cat.color)
   }
 
 }
 
 //定义一个类Cat
+//一个class cat对应的字节码文件只有一个cat.class，默认是public
 class Cat{
   //声明/定义三个属性
   //说明
