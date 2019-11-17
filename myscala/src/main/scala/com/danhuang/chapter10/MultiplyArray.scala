@@ -3,12 +3,14 @@ package com.danhuang.chapter10
 object MultiplyArray {
   def main(args: Array[String]): Unit = {
     //创建
-    val arr = Array.ofDim[Int](3,4)
+    val arr = Array.ofDim[Int](3, 4)
 
     //遍历
-    for(item <- arr){//取出二维数组的各个元素（一维数组）
-      for(item2 <- item){//元素（一维数组）遍历
-        print(item2 +"\t")
+    for (item <- arr) {
+      //取出二维数组的各个元素（一维数组）
+      for (item2 <- item) {
+        //元素（一维数组）遍历
+        print(item2 + "\t")
       }
       println()
     }
@@ -16,7 +18,7 @@ object MultiplyArray {
     println(arr(1)(1))
 
     //修改
-    arr(1)(1)=100
+    arr(1)(1) = 100
     //遍历
     println(arr(1)(1))
 
@@ -27,6 +29,7 @@ object MultiplyArray {
         printf("arr[%d][%d]=%d\t", i, j, arr(i)(j))
       }
       println()
+    }
   }
 
 }
