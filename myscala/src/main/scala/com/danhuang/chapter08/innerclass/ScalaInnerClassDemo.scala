@@ -20,7 +20,7 @@ object ScalaInnerClassDemo {
     //这里我们去调用test
     inner1.test(inner1)
     //在默认情况下，Scala的内部类实例和创建该内部类实例的外部对象关联
-    //下面的ScalaOuterClass#ScalaOuterClass类型投影的作用就是屏蔽外部对象对内部类对象的影响
+    //下面的ScalaOuterClass#ScalaInnerClass类型投影的作用就是屏蔽外部对象对内部类对象的影响
     inner1.test(inner2)
     inner2.test(inner2)
 
