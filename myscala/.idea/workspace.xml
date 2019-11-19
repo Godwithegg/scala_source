@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4872018-0af9-407d-98dc-d87cbd43054b" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ArrayBuffer2JavaList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/JavaHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/JavaHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ListBufferDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ListDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/MapDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/OperatorOverload.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/QueueDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/SetDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/TupleDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/Exercise.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/HighOrderFunDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/HighOrderFunDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/MapOperateDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/MapOperateDemo02.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,6 +36,7 @@
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="4" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
@@ -30,36 +45,36 @@
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="12" />
-          <entry key="scala" value="185" />
+          <entry key="java" value="14" />
+          <entry key="scala" value="195" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="12" />
-          <entry key="Scala" value="185" />
+          <entry key="JAVA" value="14" />
+          <entry key="Scala" value="195" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="630" />
-          <entry key="scala" value="32898" />
+          <entry key="java" value="632" />
+          <entry key="scala" value="36308" />
           <entry key="txt" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="630" />
+          <entry key="JAVA" value="632" />
           <entry key="PLAIN_TEXT" value="72" />
-          <entry key="Scala" value="32898" />
+          <entry key="Scala" value="36308" />
         </counts>
       </usages-collector>
     </session>
@@ -67,94 +82,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/MultiplyArray.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/JavaHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            <state relative-caret-position="173">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ArrayBuffer2JavaList.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/MapDemo01.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-              <folding>
-                <element signature="e#849#902#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="93">
+              <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/TupleDemo01.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/JavaHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="313">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ListDemo01.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/SetDemo01.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="113">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/Exercise01.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/MapOperateDemo01.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="80">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/HighOrderFunDemo01.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/HighOrderFunDemo02.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/MapOperateDemo02.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ListBufferDemo01.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/Exercise.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter09/ImplicitDemo02.scala">
+        <entry file="file://E:/xunleixiazai/scala-2.11.8/lib/scala-sources-2.12.4/scala-2.12.4/src/library/scala/Predef.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter09/ImplicitValDemo03.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter09/ImplicitVal02.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter09/ImplicitClassDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="125">
+              <caret line="151" column="6" selection-start-line="151" selection-start-column="6" selection-end-line="151" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -175,18 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter07/myextends/AbstractDemo01.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter07/myextends/NoNameDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/TestChildGame.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter07/myextends/AbstractClassDetails01.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/AccompanyObject.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/ChildJoinGame.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/Apply.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/TraitDemo01.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/mytrait/TraitDemo02.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/mytrait/TraitDemo03.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/homework/Conversions.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/homework/Exercise01.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/homework/Exercise02.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/homework/Exercise03.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/homework/Exercise04.scala" />
@@ -226,6 +226,18 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ListDemo01.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/Exercise01.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ListBufferDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/QueueEmo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/OperatorOverload.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/QueueDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/JavaHashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/MapDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/JavaHashSet.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/SetDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/MapOperateDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/HighOrderFunDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/HighOrderFunDemo02.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/MapOperateDemo02.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/Exercise.scala" />
       </list>
     </option>
   </component>
@@ -372,25 +384,25 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="danhuang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574095115673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574183151700" />
     <property name="last_opened_file_path" value="E:/xunleixiazai/scala-2.11.8/lib/scala-sources-2.12.4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Scala Compiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.控制台颜色" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -409,13 +421,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListBufferDemo01">
-    <configuration name="Exercise01" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter10.Exercise01" />
+  <component name="RunManager" selected="Application.Exercise">
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter11.Exercise" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter10.*" />
+          <option name="PATTERN" value="com.danhuang.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -423,12 +435,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListBufferDemo01" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter10.ListBufferDemo01" />
+    <configuration name="HighOrderFunDemo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter11.HighOrderFunDemo01" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter10.*" />
+          <option name="PATTERN" value="com.danhuang.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -436,12 +448,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemo01" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter10.ListDemo01" />
+    <configuration name="HighOrderFunDemo02" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter11.HighOrderFunDemo02" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter10.*" />
+          <option name="PATTERN" value="com.danhuang.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -449,12 +461,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyArray" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter10.MultiplyArray" />
+    <configuration name="MapOperateDemo02" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter11.MapOperateDemo02" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter10.*" />
+          <option name="PATTERN" value="com.danhuang.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -462,8 +474,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TupleDemo01" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter10.TupleDemo01" />
+    <configuration name="SetDemo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter10.SetDemo01" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
@@ -476,19 +488,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MultiplyArray" />
-      <item itemvalue="Application.TupleDemo01" />
-      <item itemvalue="Application.ListDemo01" />
-      <item itemvalue="Application.Exercise01" />
-      <item itemvalue="Application.ListBufferDemo01" />
+      <item itemvalue="Application.SetDemo01" />
+      <item itemvalue="Application.HighOrderFunDemo01" />
+      <item itemvalue="Application.HighOrderFunDemo02" />
+      <item itemvalue="Application.MapOperateDemo02" />
+      <item itemvalue="Application.Exercise" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListBufferDemo01" />
-        <item itemvalue="Application.Exercise01" />
-        <item itemvalue="Application.ListDemo01" />
-        <item itemvalue="Application.TupleDemo01" />
-        <item itemvalue="Application.MultiplyArray" />
+        <item itemvalue="Application.Exercise" />
+        <item itemvalue="Application.MapOperateDemo02" />
+        <item itemvalue="Application.HighOrderFunDemo02" />
+        <item itemvalue="Application.HighOrderFunDemo01" />
+        <item itemvalue="Application.SetDemo01" />
       </list>
     </recent_temporary>
   </component>
@@ -520,6 +532,7 @@
       <workItem from="1573963854263" duration="10304000" />
       <workItem from="1574002216313" duration="4464000" />
       <workItem from="1574038330640" duration="12717000" />
+      <workItem from="1574135882850" duration="23947000" />
     </task>
     <task id="LOCAL-00001" summary="scala oop">
       <created>1573454931302</created>
@@ -579,13 +592,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218807000" />
+    <option name="totallyTimeSpent" value="242754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23686337" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49753696" visible="true" weight="0.24090542" />
+      <window_info id="Structure" order="1" sideWeight="0.50246304" side_tool="true" weight="0.24090542" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -593,7 +607,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27886322" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27886322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -630,90 +644,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="scala list" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter07/myextends/FieldOverrideDetail.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter07/myextends/ScalaFieldOverrideDetails02.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter07/myextends/ScalaFieldOverrideDetails03.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter07/myextends/AbstractDemo01.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter07/myextends/AbstractClassDetails01.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter07/myextends/NoNameDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/TestChildGame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/Apply.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/ChildJoinGame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/mytrait/TraitDemo03.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/homework/Exercise01.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/homework/Exercise02.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter08/homework/Exercise03.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -911,6 +841,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/MultiplyArray.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ArrayBuffer2JavaList.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="e#849#902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/TupleDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ListDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/Exercise01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter09/ImplicitDemo02.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -939,48 +907,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/MultiplyArray.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ArrayBuffer2JavaList.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="e#849#902#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/TupleDemo01.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ListDemo01.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/Exercise01.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/ListBufferDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="191">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/OperatorOverload.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/QueueDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/JavaHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/MapDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/JavaHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/xunleixiazai/scala-2.11.8/lib/scala-sources-2.12.4/scala-2.12.4/src/library/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="151" column="6" selection-start-line="151" selection-start-column="6" selection-end-line="151" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter10/SetDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/HighOrderFunDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/HighOrderFunDemo02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/MapOperateDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/MapOperateDemo02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter11/Exercise.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
