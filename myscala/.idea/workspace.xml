@@ -2,24 +2,886 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4872018-0af9-407d-98dc-d87cbd43054b" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/order/OrderPizza.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/order/PizzaStore.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/order/SalePizza.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/order/SimpleFactory.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/pizza/CheesePizza.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/pizza/GreekPizza.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/pizza/PepperPizza.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/pizza/Pizza.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/generic/GenericDemo01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/generic/GenericDemo02.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/generic/GenericDemo03.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/lowerbounds/LowerBoundsDemo01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/upperbounds/UpperBoundsDemo01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/upperbounds/UpperBoundsDemo02.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/viewbounds/ViewBoundsDemo01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/viewbounds/ViewBoundsDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/convariantcontravaiant/Demo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Akka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Akka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Akka/Akka.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myscala.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/Comment$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/LookSourceCode$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/LookSourceCode$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/LookSourceCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/PrintDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/PrintDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/TestScala$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/TestScala.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/vars/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/vars/VarDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/vars/VarDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/vars/VarDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/vars/VarDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/vars/VarDemo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter01/vars/VarDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/dataconvert/Demo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/dataconvert/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/dataconvert/Demo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/dataconvert/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/dataconvert/String2Basic$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/dataconvert/String2Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/CharDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/CharDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/TypeDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/TypeDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/TypeDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/TypeDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/TypeDemo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/TypeDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/UnitNullNothingDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/datatype/UnitNullNothingDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/iden/IdenDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter02/iden/IdenDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/arithoper/Demo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/arithoper/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/arithoper/Exercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/arithoper/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/assignoper/Demo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/assignoper/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/inputcon/AAA$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/inputcon/AAA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/inputcon/Cat$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/inputcon/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/inputcon/Demo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/inputcon/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/notice/Demo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter03/notice/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Demo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Demo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Demo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Demo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise04$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise05$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/Exercise05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/ifelsesDemo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/ifelse/ifelsesDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise02$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise02$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise03$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise03$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mutlfor/Exercise03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mydowhile/Demo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mydowhile/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForDemo01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForExercise01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForExercise01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForExercise01$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForExercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForExercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForGuard$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForGuard$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForGuard$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForGuard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForUntilDemo02$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForUntilDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForUntilDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForVar$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForVar$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForVar$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/ForVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/MultiFor$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/MultiFor$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/MultiFor$$anonfun$main$2$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/MultiFor$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/MultiFor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/MultiFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/StepFor$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/StepFor$$anonfun$main$2$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/StepFor$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/StepFor$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/StepFor$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/StepFor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/StepFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/UserFor2$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/UserFor2$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/UserFor2$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/UserFor2$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/UserFor2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/UserFor2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/YieldFor$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/YieldFor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/myfor/YieldFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mywhile/WhileDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter04/mywhile/WhileDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/Method2Function$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/Method2Function$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/Method2Function$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/Method2Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/exercises/Exercise01$$anonfun$print99$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/exercises/Exercise01$$anonfun$print99$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/exercises/Exercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/exercises/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fun/FunDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fun/FunDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fun/FunYuanli$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fun/FunYuanli.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/DetailParamter05$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/DetailParamter05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/Details01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/Details01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/Details02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/Details02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/Details03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/Details03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/Details04$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/Details04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/DetailsRecursive$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/DetailsRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/VarParameters$$anonfun$sum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/VarParameters$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/fundetails/VarParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/myexception/JavaExceptionDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/myexception/ScalaExceptionDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/myexception/ScalaExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/myexception/ThrowDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/myexception/ThrowDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/myexception/ThrowsComment$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/myexception/ThrowsComment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/mylazy/LazyDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/mylazy/LazyDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/recursive/Demo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/recursive/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/recursive/Exercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter05/recursive/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/BeanPropertDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/BeanPropertDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/ConDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/ConDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/ConDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/ConDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/ConDemo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/ConDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/ConDemo04$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/ConDemo04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/Person2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/Worker2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/constructor/Worker3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/dogcase/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/dogcase/DogCaseTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/dogcase/DogCaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise02$$anonfun$countdown$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise04$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise05$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise05$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise05$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise06$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/homework/Exercise06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/method/Demo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/method/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/method/Demo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/method/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/method/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/method/MethodExec$$anonfun$printRect$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/method/MethodExec$$anonfun$printRect$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/method/MethodExec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/CatDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/CatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/CreateObj$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/CreateObj.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/MemState$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/MemState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/Person2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/PropertyDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/PropertyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter06/oop/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise03$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise03$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise04$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Exercise04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/homework/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/javapackage/TestTiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/javapackage/xh/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/javapackage/xm/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/A03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/A2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/AAA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/AAAA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/AAAAA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/AbstractClassDetails01$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/AbstractClassDetails01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/AbstractClassDetails01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/AbstractDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/AbstractDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Anima02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Animal03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/BB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/BBB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/BBBB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/BBBBB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Emp100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Emp200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Emp400.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Emp700.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Extends01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Extends01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Extends02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Extends02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/FieldOverrideDetail$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/FieldOverrideDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/JavaBaseConstractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/JavaDaynamicBind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/JavaFieldOverride.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/MethodOverride01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/MethodOverride01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/NoNameDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/NoNameDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Person100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Person200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Person400.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Person700.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/ScalaBaseConstrator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/ScalaBaseConstrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/ScalaFieldOverride$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/ScalaFieldOverride.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/ScalaFieldOverrideDetails02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/ScalaFieldOverrideDetails02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/ScalaFieldOverrideDetails03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/ScalaFieldOverrideDetails03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Student400.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Sub2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Sub_A02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/Super2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/TypeConvert$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/TypeConvert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/TypeConvertCase$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/myextends/TypeConvertCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scala/Person3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scala/Test3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scala/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scala/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scala/package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scala/package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scala2/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scala2/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/PackageImport$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/PackageImport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/TestBean$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/TestBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/TestTiger$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/TestTiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/abstractdemo/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/abstractdemo/BankDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/abstractdemo/BankDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/importdetails/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/importdetails/TestImport$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/importdetails/TestImport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/importdetails/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/visit/Clerk$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/visit/Clerk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/visit/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/visit/Testvisit$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/visit/Testvisit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/xh/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter07/scalapackage/xm/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/AccompanyObject$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/AccompanyObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/Apply$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/Apply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/Child02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/Child02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/ChildJoinGame$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/ChildJoinGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/Pig$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/Pig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/ScalaPerson$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/ScalaPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/TestChildGame$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/TestChildGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/extendtrait/CCC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/extendtrait/ExtendTraitDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/extendtrait/ExtendTraitDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/extendtrait/LoggedException$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/extendtrait/LoggedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/extendtrait/UnhappyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/extendtrait/UnhappyException2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/BankAccountDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/BankAccountDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/CheckingAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Conversions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Conversions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Dog$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Exercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Exercise02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Exercise02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Exercise03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Exercise03$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Exercise03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Exercise04$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Exercise04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Point$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/SingleTonDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/SingleTonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Suits$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/homework/Suits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/JavaInnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/OuterClass$InnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/OuterClass$StaticInnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/OuterClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/ScalaInnerClassDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/ScalaInnerClassDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/ScalaOuterClass$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/ScalaOuterClass$ScalaInnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/ScalaOuterClass$ScalaStaticInnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/innerclass/ScalaOuterClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/AA$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/AddTraits$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/AddTraits$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/AddTraits$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/AddTraits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/BB$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/BB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/CC$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/CC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/DB4$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/DB4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/DB5$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/DB5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/DB6$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/DB6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/DD$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/DD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/Data4$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/Data4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/EE$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/EE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/FF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/File4$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/File4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/File5$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/File5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/KK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInDemo01$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInDemo01$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInDemo01$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInDemo01$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInDemo02$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInPro$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInPro$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInPro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInSeq$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInSeq$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MixInSeq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MySQL3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MySQL3_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MySQL4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MySQL5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/MySQL6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/Operate3$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/Operate3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/Operate4$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/Operate4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/Operate5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mixin/OracleDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/E.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/F.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/Sheep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/T1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/T2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/T2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/Trait01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/Trait03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/TraitDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/TraitDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/TraitDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/TraitDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/TraitDemo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/mytrait/TraitDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/selftype/Console.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/selftype/Logger$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/selftype/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/selftype/SelfTypeDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter08/selftype/SelfTypeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/DB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitClassDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitClassDemo$DB1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitClassDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitNotice$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitNotice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitVal02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitVal02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitValDemo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplicitValDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplictDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/ImplictDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/MySQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/MySQL1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/homework/Execise01$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/homework/Execise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/homework/Execise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/homework/RectangleLike$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/homework/RectangleLike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/homework/RectangleLike2$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter09/homework/RectangleLike2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/Array22ArrayBuffer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/Array22ArrayBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayBuffer2JavaList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayBuffer2JavaList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayBufferDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayBufferDemo01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayBufferDemo01$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayBufferDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayBufferDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayDemo01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayDemo02$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayDemo02$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ArrayDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/CollectionDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/CollectionDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/CollectionDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/Exercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/JavaCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/JavaHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/JavaHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ListBufferDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ListBufferDemo01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ListBufferDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ListBufferDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ListDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/ListDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MapDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MapDemo01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MapDemo01$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MapDemo01$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MapDemo01$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MapDemo01$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MapDemo01$$anonfun$main$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MapDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MapDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MultiplyArray$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MultiplyArray$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MultiplyArray$$anonfun$main$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MultiplyArray$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MultiplyArray$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/MultiplyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/OperatorOverload$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/OperatorOverload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/QueueDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/QueueDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/SetDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/SetDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/TupleDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/TupleDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter10/TupleDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise02$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise03$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise03$$anonfun$charCount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise03$$anonfun$charCount2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise03$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Exercise03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FilterDemo01$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FilterDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FilterDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FlatMapDemo01$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FlatMapDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FlatMapDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FlodDemo02$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FlodDemo02$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FlodDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FlodDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FoldDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FoldDemo01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FoldDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/FoldDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/HighOrderFunDemo01$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/HighOrderFunDemo01$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/HighOrderFunDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/HighOrderFunDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/HighOrderFunDemo02$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/HighOrderFunDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/HighOrderFunDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/IteratorDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/IteratorDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/IteratorDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MapOperateDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MapOperateDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MapOperateDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MapOperateDemo02$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MapOperateDemo02$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MapOperateDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MapOperateDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MyList$$anonfun$map$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MyList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/OperatorDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/OperatorDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ParDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ParDemo01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ParDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ParDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ParDemo02$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ParDemo02$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ParDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ParDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ReduceDemo01$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ReduceDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ReduceDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ReduceExercise$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ReduceExercise$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ReduceExercise$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ReduceExercise$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ReduceExercise$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ReduceExercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ScanDemo01$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ScanDemo01$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ScanDemo01$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ScanDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ScanDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/StreamDemo01$$anonfun$com$danhuang$chapter11$StreamDemo01$$numsForm$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/StreamDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/StreamDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/StreamDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ViewDemo01$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ViewDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ViewDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ZipDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter11/ZipDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/AAA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Amount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Amount2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Amount3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Book$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Bundle$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Bundle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/CaseClassDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/CaseClassDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/CaseClassDemo02$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/CaseClassDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/CaseClassDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/CaseClassDemo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/CaseClassDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Currency$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Currency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Currency2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Currency2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Currency3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Currency3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Dollar$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Dollar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Dollar2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Dollar2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Dollar3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Dollar3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Food$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchArr$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchArr$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchForDemo$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchForDemo$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchForDemo$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchForDemo$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchForDemo$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchForDemo$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchForDemo$$anonfun$main$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchForDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchForDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchIfDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchIfDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchIfDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchList$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchObject$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchObjectDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchObjectDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchTuple$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchTuple$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchTuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchTypeDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchTypeDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchTypeDetail$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchTypeDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchVar$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchVarDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MatchVarDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MidCase$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/MidCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Names$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Names.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/NoAmount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/NoAmount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/NoAmount2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/NoAmount2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/NoAmount3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/NoAmount3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/SalesDemo$$anonfun$price$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/SalesDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/SalesDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Square$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/TestClass$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter12/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/AbstractControl$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/AbstractControl$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/AbstractControl$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/AbstractControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/AnonymouseFunction$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/AnonymouseFunction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/AnonymouseFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ClosureDemo$$anonfun$makeSuffix$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ClosureDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ClosureDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ContrilAbstractApp$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ContrilAbstractApp$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ContrilAbstractApp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ContrilAbstractApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/CurryDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/CurryDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/CurryDemo02$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/CurryDemo02$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/CurryDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/CurryDemo02$TestEq$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/CurryDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/FunParameter$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/FunParameter$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/FunParameter$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/FunParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/HigherOrderFunction$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/HigherOrderFunction$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/HigherOrderFunction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/HigherOrderFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/HigherOrderFunction2$$anonfun$minusxy$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/HigherOrderFunction2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/HigherOrderFunction2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$$anonfun$main$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$$anonfun$main$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/ParameterInfer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo01$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo01$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo02$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo03$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo03$$anonfun$partialFun$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/PartialFunDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/TestBB$$anonfun$makeSuffix$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/TestBB$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter13/TestBB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveFatoria$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveFatoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveFnb$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveFnb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveMaxList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveMaxList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveReverseString$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter14/RecursiveReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter15/customercrm/app/CustomerCrm$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter15/customercrm/app/CustomerCrm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter15/customercrm/bean/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter15/customercrm/service/CustomerService$$anonfun$findIndexById$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter15/customercrm/service/CustomerService$$anonfun$findIndexById$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter15/customercrm/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter15/customercrm/view/CustomerView$$anonfun$del$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter15/customercrm/view/CustomerView$$anonfun$list$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter15/customercrm/view/CustomerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise03$$anonfun$mySum$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise03$$anonfun$mySum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise04$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise04$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise04$$anonfun$compose$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise04$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise05$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise05$$anonfun$values$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise05$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise06$$anonfun$factorial$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise06$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise07$$anonfun$largest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise07$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise07$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/Exercise07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter16/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/order/OrderPizza$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/order/OrderPizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/order/PizzaStore$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/order/PizzaStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/order/SalePizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/order/SimpleFactory$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/order/SimpleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/pizza/CheesePizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/pizza/GreekPizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/pizza/PepperPizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter17/simplefactory/pizzastore/pizza/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/EnglishClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/GenericDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/GenericDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/GenericDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/GenericDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/GenericDemo03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/GenericDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/IntMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/SeasonEnum$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/SeasonEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/generic/StringMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/lowerbounds/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/lowerbounds/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/lowerbounds/Earth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/lowerbounds/LowerBoundsDemo01$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/lowerbounds/LowerBoundsDemo01$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/lowerbounds/LowerBoundsDemo01$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/lowerbounds/LowerBoundsDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/lowerbounds/LowerBoundsDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/lowerbounds/Moon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/CommonCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/CompareInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/Earth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/LowerBoundsDemo$$anonfun$biophony$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/LowerBoundsDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/LowerBoundsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/UpperBoundsDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/upperbounds/UpperBoundsDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/CompareComm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/CompareComm2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/ViewBoundsDemo01$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/ViewBoundsDemo01$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/ViewBoundsDemo01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/ViewBoundsDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/ViewBoundsDemo02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/danhuang/chapter18/viewbounds/ViewBoundsDemo02.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,19 +891,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-551830975">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.22" value="1" />
@@ -52,28 +928,31 @@
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
           <entry key="java" value="15" />
-          <entry key="scala" value="284" />
+          <entry key="scala" value="286" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="JAVA" value="15" />
-          <entry key="Scala" value="284" />
+          <entry key="Scala" value="286" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
           <entry key="java" value="633" />
-          <entry key="scala" value="53383" />
+          <entry key="scala" value="53599" />
           <entry key="txt" value="69" />
         </counts>
       </usages-collector>
@@ -81,7 +960,7 @@
         <counts>
           <entry key="JAVA" value="633" />
           <entry key="PLAIN_TEXT" value="84" />
-          <entry key="Scala" value="53383" />
+          <entry key="Scala" value="53599" />
         </counts>
       </usages-collector>
     </session>
@@ -89,31 +968,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/order/OrderPizza.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/generic/GenericDemo01.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/generic/GenericDemo02.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="187">
               <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-              <folding>
-                <element signature="e#40#88#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +979,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/generic/GenericDemo03.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="136">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -130,8 +988,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/upperbounds/UpperBoundsDemo01.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="561">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -139,8 +997,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/upperbounds/UpperBoundsDemo02.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -148,8 +1006,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/lowerbounds/LowerBoundsDemo01.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -157,17 +1015,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/viewbounds/ViewBoundsDemo01.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="17">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/convariantcontravaiant/Demo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/viewbounds/ViewBoundsDemo02.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="442">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -175,7 +1051,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/pizza/CheesePizza.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
+            <state relative-caret-position="34">
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
@@ -202,7 +1078,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter13/PartialFunDemo02.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter13/PartialFunDemo03.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter13/FunParameter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter13/AnonymouseFunction.scala" />
@@ -253,6 +1128,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/viewbounds/ViewBoundsDemo01.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/Test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/viewbounds/ViewBoundsDemo02.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/convariantcontravaiant/Demo.scala" />
       </list>
     </option>
   </component>
@@ -269,17 +1145,27 @@
         <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myscala" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="309" />
     <option name="y" value="246" />
     <option name="width" value="1623" />
@@ -355,7 +1241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,15 +1272,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="danhuang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -404,57 +1280,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danhuang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter17" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danhuang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter17" type="462c0819:PsiDirectoryNode" />
-              <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="danhuang" type="462c0819:PsiDirectoryNode" />
               <item name="chapter18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danhuang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter18" type="462c0819:PsiDirectoryNode" />
-              <item name="upperbounds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danhuang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter18" type="462c0819:PsiDirectoryNode" />
-              <item name="viewbounds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -462,11 +1295,11 @@
     <property name="SearchEverywhereHistoryKey" value="SeasonEnum&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574939972597" />
-    <property name="last_opened_file_path" value="E:/xunleixiazai/scala-2.11.8/lib/scala-sources-2.12.4" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574958906623" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.控制台颜色" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -485,13 +1318,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ViewBoundsDemo02">
-    <configuration name="GenericDemo03" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter18.generic.GenericDemo03" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter18.convariantcontravaiant.Demo" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter18.generic.*" />
+          <option name="PATTERN" value="com.danhuang.chapter18.convariantcontravaiant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -499,12 +1332,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowerBoundsDemo01" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter18.lowerbounds.LowerBoundsDemo01" />
+    <configuration name="GenericDemo03" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter18.generic.GenericDemo03" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter18.lowerbounds.*" />
+          <option name="PATTERN" value="com.danhuang.chapter18.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -525,12 +1360,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpperBoundsDemo01" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter18.upperbounds.UpperBoundsDemo01" />
+    <configuration name="ViewBoundsDemo01" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="com.danhuang.chapter18.viewbounds.ViewBoundsDemo01" />
       <module name="myscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.danhuang.chapter18.upperbounds.*" />
+          <option name="PATTERN" value="com.danhuang.chapter18.viewbounds.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -553,18 +1389,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GenericDemo03" />
-      <item itemvalue="Application.UpperBoundsDemo01" />
-      <item itemvalue="Application.LowerBoundsDemo01" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.ViewBoundsDemo02" />
+      <item itemvalue="Application.ViewBoundsDemo01" />
+      <item itemvalue="Application.Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.ViewBoundsDemo01" />
+        <item itemvalue="Application.GenericDemo03" />
         <item itemvalue="Application.ViewBoundsDemo02" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LowerBoundsDemo01" />
-        <item itemvalue="Application.UpperBoundsDemo01" />
-        <item itemvalue="Application.GenericDemo03" />
       </list>
     </recent_temporary>
   </component>
@@ -607,6 +1443,11 @@
       <workItem from="1574740310328" duration="15769000" />
       <workItem from="1574825175300" duration="11277000" />
       <workItem from="1574912430221" duration="16658000" />
+      <workItem from="1574949069191" duration="1210000" />
+      <workItem from="1574956725377" duration="363000" />
+      <workItem from="1574957101567" duration="17000" />
+      <workItem from="1574957160683" duration="10000" />
+      <workItem from="1574957228250" duration="1631000" />
     </task>
     <task id="LOCAL-00001" summary="scala oop">
       <created>1573454931302</created>
@@ -680,12 +1521,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="346467000" />
+    <option name="totallyTimeSpent" value="349698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49753696" visible="true" weight="0.28051737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49753696" visible="true" weight="0.25303152" />
       <window_info id="Structure" order="1" sideWeight="0.50246304" side_tool="true" weight="0.24090542" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -711,7 +1552,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="调色板" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32983023" />
     </layout>
@@ -733,27 +1574,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="scala 偏函数 科里化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter13/PartialFunDemo03.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter13/FunParameter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter13/AnonymouseFunction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter13/HigherOrderFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -989,83 +1809,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/Test.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/order/OrderPizza.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="34">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/pizza/CheesePizza.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/generic/GenericDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="357">
           <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/generic/GenericDemo02.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="187">
           <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-          <folding>
-            <element signature="e#40#88#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/generic/GenericDemo03.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/upperbounds/UpperBoundsDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="561">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/upperbounds/UpperBoundsDemo02.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/lowerbounds/LowerBoundsDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/Test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/viewbounds/ViewBoundsDemo01.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/viewbounds/ViewBoundsDemo02.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="442">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter17/simplefactory/pizzastore/pizza/CheesePizza.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/convariantcontravaiant.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/viewbounds/ViewBoundsDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/danhuang/chapter18/convariantcontravaiant/Demo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
